@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Virtual apartment </title>
+  <meta name="keywords" content="theatre.js,  3d, react three fiber" />
+  <link rel="shortcut icon" href="/assets/favicon-273be61c.ico" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script>
+    // Checks for CSS variable support
+    document.documentElement.className = "js";
+    var supportsCssVars = function() {
+      var e, t = document.createElement("style");
+      t.innerHTML = "root: { --tmp-var: bold; }";
+      document.head.appendChild(t);
+      e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)"));
+      t.parentNode.removeChild(t);
+      return e;
+    };
+    if (!supportsCssVars()) {
+      alert("Please view this demo in a modern browser that supports CSS Variables.");
+    }
+  </script>
+  <script type="module" crossorigin src="/assets/index-99c7dd91.js"></script>
+  <link rel="stylesheet" href="/assets/index-5ab4c7d6.css">
+</head>
+
+<body onLoad="window.scrollTo(0,0);"></body>
+<body class="demo-1">
+  <main>
+      
+    <div id="root"></div>
+  </main>
+  
+</body>
+</html>
